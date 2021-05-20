@@ -1,0 +1,12 @@
+version: "2.0"
+stories:
+- story: Story from Conversation ID 8020c728e733461c94c1ce40d6d46f92
+  steps:
+  - intent: greet
+    user: |-
+      hello
+  - action: utter_greet
+  - intent: mood_great
+    user: |-
+      good!
+  - action: utter_happy
