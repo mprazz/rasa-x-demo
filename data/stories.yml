@@ -28,3 +28,12 @@ stories:
   steps:
   - intent: goodbye
   - action: utter_goodbye
+- story: Story from Conversation ID 2afdf1608e5341b9a7a01223137d533d
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: mood_deny
+  - action: utter_goodbye
